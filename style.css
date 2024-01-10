@@ -23,8 +23,18 @@ box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .container .logo {
-    font-size: 50px;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30%; /* Adjust the height percentage as needed */
+    width: 30%; /* Adjust the width percentage as needed */
+    margin-left: 35%;
+}
+
+.container .logo img {
+    align-items: center;
+    width: 100%; /* Ensure the image does not exceed the container size */
+    height: 100%;
 }
 
 .container .title{
