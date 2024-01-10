@@ -26,9 +26,9 @@ box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 30%; /* Adjust the height percentage as needed */
-    width: 30%; /* Adjust the width percentage as needed */
-    margin-left: 35%;
+    height: 25%; /* Adjust the height percentage as needed */
+    width: 25%; /* Adjust the width percentage as needed */
+    margin-left: 38%;
 }
 
 .container .logo img {
