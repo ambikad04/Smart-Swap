@@ -57,6 +57,7 @@ form :where(input, select, button){
 
 form p{
     font-size: 18px;
+    margin-top: 15px;
     margin-bottom: 5px;
 }
 
@@ -89,9 +90,28 @@ form .drop-list{
 }
 
 .select-box select {
-    width: 70%;
+    width: 60%;
 }
 
 .select-box img{
     max-width: 25px;
+}
+
+.drop-list .icon{
+    cursor: pointer;
+    font-size: 22px;
+    margin-top: 38px;
+}
+
+form .exchange-rate{
+    font-size: 17px;
+    margin: 20px 0 30px;
+}
+
+form button{
+    height: 52px;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+    background: #675AFE;
 }
