@@ -47,3 +47,49 @@ font-size:28px;
     font-size: 14px;
     margin-top: 3px;
 }
+
+form :where(input, select, button){
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+form p{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+form input{
+    height: 50px;
+    font-size: 17px;
+    padding: 0 15px;
+    border: 1px solid #999;
+}
+
+form input:focus{
+    padding: 0 14px;
+    border: 2px solid #675AFE;
+}
+
+form .drop-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.drop-list .select-box{
+    display: flex;
+    height: 45px;
+    width: 115px;
+    align-items: center;
+    justify-content: center;
+}
+
+.select-box select {
+    width: auto;
+}
+
+.select-box img{
+    max-width: 25px;
+}
