@@ -31,7 +31,7 @@ box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     margin-left: 38%;
 }
 
-.wrapper .logo img {
+.wrapper .app-details img {
     align-items: center;
     width: 100%; /* Ensure the image does not exceed the container size */
     height: 100%;
