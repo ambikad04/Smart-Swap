@@ -10,7 +10,7 @@ background:#D4D5DA;
 font-family: 'Montserrat', sans-serif;
 }
 
-.container{
+.wrapper{
 padding:20px; 
 width:350px;
 background:white;
@@ -22,7 +22,7 @@ transform:translate(-50%,-50%);
 box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-.container .logo {
+.wrapper .app-details {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,18 +31,18 @@ box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     margin-left: 38%;
 }
 
-.container .logo img {
+.wrapper .logo img {
     align-items: center;
     width: 100%; /* Ensure the image does not exceed the container size */
     height: 100%;
 }
 
-.container .title{
+.wrapper .app-title{
 text-align:center;
 font-size:28px;
 }
 
-.container h2 {
+.wrapper h2 {
     text-align: center;
     font-size: 14px;
     margin-top: 3px;
@@ -79,7 +79,7 @@ form .drop-list{
     justify-content: space-between;
 }
 
-.drop-list .select-box{
+.drop-list .dropdowns{
     display: flex;
     height: 45px;
     width: 115px;
@@ -89,11 +89,11 @@ form .drop-list{
     border: 1px solid #999;
 }
 
-.select-box select {
+.dropdowns select {
     width: 60%;
 }
 
-.select-box img{
+.dropdowns img{
     max-width: 25px;
 }
 
