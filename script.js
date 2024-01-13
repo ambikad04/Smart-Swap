@@ -58,7 +58,3 @@ function loadFlag(element) {
     }
 }
 
-document
-  .querySelector("#convert-button")
-  .addEventListener("click", convertCurrency);
-window.addEventListener("load", convertCurrency);
