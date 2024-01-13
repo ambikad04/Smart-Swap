@@ -28,7 +28,7 @@ let convertCurrency = () => {
     const amount = document.querySelector("#amount").value;
     const fromCurrency = fromDropDown.value;
     const toCurrency = toDropDown.value;
-
+   
 
 //If amount input field is not empty
   if (amount.length != 0) {
@@ -44,7 +44,20 @@ let convertCurrency = () => {
   } else {
     alert("Please fill in the amount");
   }
+  dropdown[i].addEventListener("change", e =>{
+    loadFlag(e.target);
+  })
 };
+
+function loadFlag(element) {
+    for (const code in currencies) {
+        if (currencies[code] == element.value) {
+            const imgTag = element.parentElement.querySelector("img");
+            imgTag.src = `https://flagsapi.com/${currencies[code]}/flat/64.png`;
+        }
+    }
+}
+
 document
   .querySelector("#convert-button")
   .addEventListener("click", convertCurrency);

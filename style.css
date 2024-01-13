@@ -120,6 +120,8 @@ form button{
 #result {
     font-size: 1.2em;
     text-align: center;
+    align-items: center;
+    justify-content: center;
     margin-top: 1em;
     color: #02002c;
     background-color: #b5cef7;
